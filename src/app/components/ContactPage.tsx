@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Phone, Mail, MapPin, FileText } from 'lucide-react';
 import { useNavigate } from 'react-router';
-import logoImage from 'figma:asset/73d47321ff41c63afea534a872ded3d176a15ea0.png';
 
 export function ContactPage() {
   const [formData, setFormData] = useState({
