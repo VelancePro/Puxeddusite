@@ -1,5 +1,4 @@
 import { Phone, Mail, MapPin, Linkedin } from 'lucide-react';
-import logoImage from 'figma:asset/73d47321ff41c63afea534a872ded3d176a15ea0.png';
 
 export function Footer() {
   const scrollToSection = (id: string) => {
